@@ -1,223 +1,155 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
+
 <head>
-<title>UKR.NET: Всі новини України, останні новини дня в Україні та Світі</title>
+	<title>Lesson 3. Homework 1.</title>
+
+
+	<style type="text/css">
+
+		.tableborder-1{
+			width: 250px;
+			height: 250px;
+			border: 2px solid black;
+			border-collapse: collapse;
+			background-color: #A4E0C3;
+		}
+
+		.tableborder-1 td {
+			border: 1px solid black;
+		}
+
+		#vasya:focus {
+			background-color: black;
+			color: white;
+		}
+
+
+	</style>
+
+
 </head>
+
 
 <body>
 
-<!-- Task
-1. Create a structure of https://www.ukr.net/
- -->
+<!-- page layout table -->
 
-	
-	<table width="1000px" border="1" align="center">
+	<table>
 
+		<tr>
 
-	<tr>
-	<td width="20%">		
+<!-- page layout cell 1 -->
 
 
+			<td>
 
+				<table class="tableborder-1">
 
-		<img src="https://upst.fwdcdn.com/temp/holidays/6598/logo_ua.gif">
+				<tr>
+				<td rowspan="2">Cell 1</td>
+				<td colspan="2">Cell 2</td>
+				</tr>
 
-		<h3>Вибране</h3>
-				<table>
-					<tr>
-						<td>
+				<tr>
+				<td>Cell 5</td>
+				<td>Cell 6</td>
+				</tr>
 
-								<ul>
-									<li>Sinoptik</li>
-									<li>ОракулТВ</li>
-									<li>гiдКіно</li>
-									<li>KastaЦитрус</li>
-								</ul>
-															
-						</td>
-
-						<td>
-								<ul>
-									<li>афішаAvto</li>
-									<li>SaleBooking</li>
-									<li>Rozetka</li>
-									<li>Born2be</li>
-								</ul>
-											
-
-						</td>
-
-					</tr>
 				</table>
 
-		<h3>Автосайти</h3>
-		<ul>
-			<li>AUTO.RIA - №1 в автопродажі Машини продають на сайтi RST InfoCar.ua - нові авто </li>
-			<li>eTachki - купимо Ваше авто Avtosale - нове авто Нова Toyota від 436 306 грн! </li>
-			<li>Toyota C-HR від 707 820 грн! Оновлений Subaru Forester! Електронний поліс Осаго </li>
-			<li>Новий Nissan від 391 170 грн! Авто SUZUKI від 460 900 грн.</li>
-		</ul>
-		<h3>Автосайти</h3>
-		<ul>
-			<li>AUTO.RIA - №1 в автопродажі Машини продають на сайтi RST InfoCar.ua - нові авто </li>
-			<li>eTachki - купимо Ваше авто Avtosale - нове авто Нова Toyota від 436 306 грн! </li>
-			<li>Toyota C-HR від 707 820 грн! Оновлений Subaru Forester! Електронний поліс Осаго </li>
-			<li>Новий Nissan від 391 170 грн! Авто SUZUKI від 460 900 грн.</li>
-		</ul>
-
-		<h3>Автосайти</h3>
-			<ul>
-			<li>AUTO.RIA - №1 в автопродажі Машини продають на сайтi RST InfoCar.ua - нові авто </li>
-			<li>eTachki - купимо Ваше авто Avtosale - нове авто Нова Toyota від 436 306 грн! </li>
-			<li>Toyota C-HR від 707 820 грн! Оновлений Subaru Forester! Електронний поліс Осаго </li>
-			<li>Новий Nissan від 391 170 грн! Авто SUZUKI від 460 900 грн.</li>
-		</ul>
+			</td>
 
 
-	</td>
-	<td width="40%">
+<!-- page layout cell 2 -->
 
 
-		<h3>Головне</h3>
+			<td>
 
-		<ul>
-			<li>США не планируют размещать в Европе ракеты, запрещенные в ДРСМД, - Болтон (РБК-Україна)</li>
-			<li>Львів – Олімпік та ще два матчі УПЛ. Анонс (Футбол 24)</li>
-			<li>Слідство РФ про трагедію в коледжі Керчі: Росляков діяв один (Українська правда)</li>
+				<table class="tableborder-1">
 
-		</ul>
+				<tr>
+				<td colspan="2">Cell 1</td>
+				</tr>
 
+				<tr>
+				<td rowspan="2">Cell 3</td>
+				<td>Cell 4</td>
+				</tr>
 
-		<h3>Новини</h3>
-
-		<ul>
-			<li>США не планируют размещать в Европе ракеты, запрещенные в ДРСМД, - Болтон (РБК-Україна)</li>
-			<li>Львів – Олімпік та ще два матчі УПЛ. Анонс (Футбол 24)</li>
-			<li>Слідство РФ про трагедію в коледжі Керчі: Росляков діяв один (Українська правда)</li>
-
-		</ul>
-
-
-		<h3>Политика</h3>
-
-		<ul>
-			<li>США не планируют размещать в Европе ракеты, запрещенные в ДРСМД, - Болтон (РБК-Україна)</li>
-			<li>Львів – Олімпік та ще два матчі УПЛ. Анонс (Футбол 24)</li>
-			<li>Слідство РФ про трагедію в коледжі Керчі: Росляков діяв один (Українська правда)</li>
-
-		</ul>
-
-
-		<h3>Экономика</h3>
-
-		<ul>
-			<li>США не планируют размещать в Европе ракеты, запрещенные в ДРСМД, - Болтон (РБК-Україна)</li>
-			<li>Львів – Олімпік та ще два матчі УПЛ. Анонс (Футбол 24)</li>
-			<li>Слідство РФ про трагедію в коледжі Керчі: Росляков діяв один (Українська правда)</li>
-
-		</ul>
+				<tr>
+				<td>Cell 6</td>
+				</tr>
 
 
 
-		</td>
-		<td width="40%">		
-
-
-		<h3>Вибране</h3>
-				<table>
-					<tr>
-						<td>
-
-								<ul>
-									<li>Sinoptik</li>
-									<li>ОракулТВ</li>
-									<li>гiдКіно</li>
-									<li>KastaЦитрус</li>
-								</ul>
-															
-						</td>
-
-						<td>
-								<ul>
-									<li>афішаAvto</li>
-									<li>SaleBooking</li>
-									<li>Rozetka</li>
-									<li>Born2be</li>
-								</ul>
-											
-
-						</td>
-
-					</tr>
 				</table>
 
+			</td>
 
 
-			<h3>Вибране</h3>
-				<table>
-					<tr>
-						<td>
+		</tr>
 
-								<ul>
-									<li>Sinoptik</li>
-									<li>ОракулТВ</li>
-									<li>гiдКіно</li>
-									<li>KastaЦитрус</li>
-								</ul>
-															
-						</td>
+		<tr>
 
-						<td>
-								<ul>
-									<li>афішаAvto</li>
-									<li>SaleBooking</li>
-									<li>Rozetka</li>
-									<li>Born2be</li>
-								</ul>
-											
 
-						</td>
+<!-- page layout cell 3 -->
 
-					</tr>
-			</table>
+			<td>
 
-			<h3>Вибране</h3>
-				<table>
-					<tr>
-						<td>
+				<table class="tableborder-1">
 
-								<ul>
-									<li>Sinoptik</li>
-									<li>ОракулТВ</li>
-									<li>гiдКіно</li>
-									<li>KastaЦитрус</li>
-								</ul>
-															
-						</td>
+<!-- easter egg -->
 
-						<td>
-								<ul>
-									<li>афішаAvto</li>
-									<li>SaleBooking</li>
-									<li>Rozetka</li>
-									<li>Born2be</li>
-								</ul>
-											
+				<tr>
+				<td>Cell 1</td>
+				<td id="vasya" rowspan="2" contenteditable="true">Cell 2</td>
+				</tr>
 
-						</td>
+				<tr>
+				<td>Cell 3</td>
+				</tr>
 
-					</tr>
+				<tr>
+				<td colspan="2">Cell 5</td>
+				</tr>
+
 				</table>
 
+			</td>
 
+<!-- page layout cell 4 -->
 
-	</td>
-</tr>
+			<td>
 
+				<table class="tableborder-1">
+
+				<tr>
+				<td colspan="2">Cell 1</td>
+				</tr>
+
+				<tr>
+				<td>Cell 3</td>
+				<td>Cell 4</td>
+				</tr>
+
+				<tr>
+				<td colspan="2">Cell 5</td>
+				</tr>
+
+				</table>
+
+			</td>
+
+		</tr>
+		
+	</table>
 
 
 
 
 </body>
+
+
 
 </html>
